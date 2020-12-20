@@ -64,6 +64,16 @@ is maintained by [Parity Technologies](https://www.parity.io/).
     - **polkadot.js video needed!!**
   - how to use polkadot.js.org/apps
 - [Parachains, Cumulus & the Rococo Test Network](https://www.crowdcast.io/e/zpnjlj0r)
+  - unlisted... still should be?
+  -  trie structure primer somwhere? specific to substrate
+  - parachain transferToParachain can send base units (dots) to other chains?
+  - also can send base currency directly between parachains?
+  - **token transferes are monually implimented in pallets. Hence standards to make this uniform is key**
+  - q at 1:14 - what is preventing too many parachains registering leading to the erros we saw?
+  - nothing stops you from sending to a non-exztistant parachain? When fixed? ( relay checks if ID exists)
+  - how do you get preset parachains and their IDs from relay?
+  - how to get existing chain to parachian? 
+    - runtime upgrade that inits a script to register a parachain? done _after_ auction is already won so this can happen within one block, otherwise would need to pause chain so the parastate is static to register the parachain.
 - [Enterprise Demo](https://www.crowdcast.io/e/substrate-seminar/6)
 - [Bridges & Cross-Chain Interoperability](https://www.crowdcast.io/e/substrate-seminar/12)
 - [Archive Indexing Engine](https://www.crowdcast.io/e/substrate-seminar/15)
