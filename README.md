@@ -52,6 +52,17 @@ is maintained by [Parity Technologies](https://www.parity.io/).
 ## Recordings
 
 - [Introduction to Substrate](https://www.crowdcast.io/e/ocimgwg2)
+  - FRAME needs a bit more in depth overview: what does it include?
+    - an engine for pallets
+    - name convention `frame-...` required in substrate code base, `pallet-...` is optional and extends
+  - runtime included in storate -> runtime upgrades more detail as to why this is important and worth the un-optimized native runtime
+    - upgrades to all nodes on network are not possible in permissionless un-managed nodes (no admins)
+    - hard forks on distributed systems are HARD AND COSTLY
+  - are "magic" macros going away? If so, this is depricated as a video to use.
+    - programing language within a programing language - great analog.
+  - enterprise UI example is great. But do we need to look at the JS for it in the video?
+    - **polkadot.js video needed!!**
+  - how to use polkadot.js.org/apps
 - [Parachains, Cumulus & the Rococo Test Network](https://www.crowdcast.io/e/zpnjlj0r)
 - [Enterprise Demo](https://www.crowdcast.io/e/substrate-seminar/6)
 - [Bridges & Cross-Chain Interoperability](https://www.crowdcast.io/e/substrate-seminar/12)
