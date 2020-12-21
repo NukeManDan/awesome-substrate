@@ -75,6 +75,9 @@ is maintained by [Parity Technologies](https://www.parity.io/).
   - how to get existing chain to parachian? 
     - runtime upgrade that inits a script to register a parachain? done _after_ auction is already won so this can happen within one block, otherwise would need to pause chain so the parastate is static to register the parachain.
 - [Enterprise Demo](https://www.crowdcast.io/e/substrate-seminar/6)
+  - starts with demo on the front end... it really lacks understanding of the substrate code that enables it. 
+  - code starts 28:00
+  - android demo ever get made?
 - [Bridges & Cross-Chain Interoperability](https://www.crowdcast.io/e/substrate-seminar/12)
 - [Archive Indexing Engine](https://www.crowdcast.io/e/substrate-seminar/15)
 - [Ethereum Apps on Substrate Chains](https://www.crowdcast.io/e/ethereum-apps-moonbeam)
